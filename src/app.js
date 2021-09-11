@@ -5,6 +5,14 @@ const cors = require('cors');
 const listEndpoints = require('express-list-endpoints')
 
 const products = require('./data/products.json')
+const one = require('./data/1.json')
+const two = require('./data/2.json')
+const three = require('./data/3.json')
+const four = require('./data/4.json')
+const five = require('./data/5.json')
+const six = require('./data/6.json')
+const seven = require('./data/7.json')
+const eight = require('./data/8.json')
 
 require('dotenv').config();
 
@@ -24,6 +32,38 @@ app.get('/', (req, res) => {
 
 app.get('/sneakers', (req, res) => {
   res.json({ data: products })
+})
+
+app.get('/one', (req, res) => {
+  res.json({ data: one })
+})
+
+app.get('/two', (req, res) => {
+  res.json({ data: two })
+})
+
+app.get('/three', (req, res) => {
+  res.json({ data: three })
+})
+
+app.get('/four', (req, res) => {
+  res.json({ data: four })
+})
+
+app.get('/five', (req, res) => {
+  res.json({ data: five })
+})
+
+app.get('/six', (req, res) => {
+  res.json({ data: six })
+})
+
+app.get('/seven', (req, res) => {
+  res.json({ data: seven })
+})
+
+app.get('/eight', (req, res) => {
+  res.json({ data: eight })
 })
 
 app.use('/api/v1', api);
