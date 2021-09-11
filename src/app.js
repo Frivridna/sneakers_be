@@ -4,7 +4,6 @@ const helmet = require('helmet');
 const cors = require('cors');
 const listEndpoints = require('express-list-endpoints')
 
-// NEW
 const products = require('./data/products.json')
 
 require('dotenv').config();
