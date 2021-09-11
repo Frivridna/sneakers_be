@@ -1,6 +1,5 @@
 # Simple API
-https://sneakersbe.herokuapp.com/
-\Welcome page - contains a list of available routes.
+https://sneakersbe.herokuapp.com/  Welcome page - contains a list of available routes.
 
 ## Setup
 
