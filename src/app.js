@@ -2,6 +2,10 @@ const express = require('express');
 const morgan = require('morgan');
 const helmet = require('helmet');
 const cors = require('cors');
+const listEndpoints = require('express-list-endpoints')
+
+// NEW
+const products = require('./data/products.json')
 
 require('dotenv').config();
 
@@ -16,10 +20,12 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.json({
-    message: '🦄🌈✨👋🌎🌍🌏✨🌈🦄'
-  });
-});
+  res.send(listEndpoints(app))
+})
+
+app.get('/sneakers', (req, res) => {
+  res.json({ data: products })
+})
 
 app.use('/api/v1', api);
 

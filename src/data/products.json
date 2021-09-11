@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Nike Air Max 1/97 VF Sean Wotherspoon",
+    "price": 1599,
+    "currency": "SEK",
+    "thumbnail": "/images/1-thumb.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Nike Sportswear The 10: Air Vapormax FK x Off-White",
+    "price": 2499,
+    "currency": "SEK",
+    "thumbnail": "/images/2-thumb.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Jordan Brand Air Jordan 1 x OFF-WHITE NRG",
+    "price": 1899,
+    "currency": "SEK",
+    "thumbnail": "/images/3-thumb.jpg"
+  },
+  {
+    "id": 4,
+    "name": "adidas Originals Deerupt Runner",
+    "price": 999,
+    "currency": "SEK",
+    "thumbnail": "/images/4-thumb.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Nike Running Air Vapormax Plus",
+    "price": 2099,
+    "currency": "SEK",
+    "thumbnail": "/images/5-thumb.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Jordan Brand Air Jordan 1 Retro High OG NRG",
+    "price": 1599,
+    "currency": "SEK",
+    "thumbnail": "/images/6-thumb.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Jordan Brand Air Jordan XXXII CNY",
+    "price": 1999,
+    "currency": "SEK",
+    "thumbnail": "/images/7-thumb.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Nike Sportswear Air Max 97/Plus",
+    "price": 1849,
+    "currency": "SEK",
+    "thumbnail": "/images/8-thumb.jpg"
+  }
+]
