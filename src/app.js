@@ -39,31 +39,31 @@ app.get('/one', (req, res) => {
 })
 
 app.get('/two', (req, res) => {
-  res.json({ data: two })
+  res.json(two)
 })
 
 app.get('/three', (req, res) => {
-  res.json({ data: three })
+  res.json(three)
 })
 
 app.get('/four', (req, res) => {
-  res.json({ data: four })
+  res.json(four)
 })
 
 app.get('/five', (req, res) => {
-  res.json({ data: five })
+  res.json(five)
 })
 
 app.get('/six', (req, res) => {
-  res.json({ data: six })
+  res.json(six)
 })
 
 app.get('/seven', (req, res) => {
-  res.json({ data: seven })
+  res.json(seven)
 })
 
 app.get('/eight', (req, res) => {
-  res.json({ data: eight })
+  res.json(eight)
 })
 
 app.use('/api/v1', api);
