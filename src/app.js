@@ -31,11 +31,11 @@ app.get('/', (req, res) => {
 })
 
 app.get('/sneakers', (req, res) => {
-  res.json({ data: products })
+  res.json(products)
 })
 
 app.get('/one', (req, res) => {
-  res.json({ data: one })
+  res.json(one)
 })
 
 app.get('/two', (req, res) => {
