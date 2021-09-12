@@ -18,7 +18,7 @@
     "name": "Jordan Brand Air Jordan 1 x OFF-WHITE NRG",
     "price": 1899,
     "currency": "SEK",
-    "thumbnail": "https://s3.console.aws.amazon.com/s3/object/sneakersbe?region=eu-north-1&prefix=images/3-thumb.jpg"
+    "thumbnail": "https://sneakersbe.s3.eu-north-1.amazonaws.com/images/3-thumb.jpg"
   },
   {
     "id": 4,
