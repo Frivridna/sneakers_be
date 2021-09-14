@@ -34,35 +34,35 @@ app.get('/sneakers', (req, res) => {
   res.json(products)
 })
 
-app.get('/one', (req, res) => {
+app.get('/1', (req, res) => {
   res.json(one)
 })
 
-app.get('/two', (req, res) => {
+app.get('/2', (req, res) => {
   res.json(two)
 })
 
-app.get('/three', (req, res) => {
+app.get('/3', (req, res) => {
   res.json(three)
 })
 
-app.get('/four', (req, res) => {
+app.get('/4', (req, res) => {
   res.json(four)
 })
 
-app.get('/five', (req, res) => {
+app.get('/5', (req, res) => {
   res.json(five)
 })
 
-app.get('/six', (req, res) => {
+app.get('/6', (req, res) => {
   res.json(six)
 })
 
-app.get('/seven', (req, res) => {
+app.get('/7', (req, res) => {
   res.json(seven)
 })
 
-app.get('/eight', (req, res) => {
+app.get('/8', (req, res) => {
   res.json(eight)
 })
 
