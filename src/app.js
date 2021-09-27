@@ -2,17 +2,17 @@ const express = require('express');
 const morgan = require('morgan');
 const helmet = require('helmet');
 const cors = require('cors');
-const listEndpoints = require('express-list-endpoints')
+const listEndpoints = require('express-list-endpoints');
 
-const products = require('./data/products.json')
-const one = require('./data/1.json')
-const two = require('./data/2.json')
-const three = require('./data/3.json')
-const four = require('./data/4.json')
-const five = require('./data/5.json')
-const six = require('./data/6.json')
-const seven = require('./data/7.json')
-const eight = require('./data/8.json')
+const products = require('./data/products.json');
+const one = require('./data/1.json');
+const two = require('./data/2.json');
+const three = require('./data/3.json');
+const four = require('./data/4.json');
+const five = require('./data/5.json');
+const six = require('./data/6.json');
+const seven = require('./data/7.json');
+const eight = require('./data/8.json');
 
 require('dotenv').config();
 
@@ -27,44 +27,44 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send(listEndpoints(app))
-})
+  res.send(listEndpoints(app));
+});
 
 app.get('/sneakers', (req, res) => {
-  res.json(products)
-})
+  res.json(products);
+});
 
 app.get('/1', (req, res) => {
-  res.json(one)
-})
+  res.json(one);
+});
 
 app.get('/2', (req, res) => {
-  res.json(two)
-})
+  res.json(two);
+});
 
 app.get('/3', (req, res) => {
-  res.json(three)
-})
+  res.json(three);
+});
 
 app.get('/4', (req, res) => {
-  res.json(four)
-})
+  res.json(four);
+});
 
 app.get('/5', (req, res) => {
-  res.json(five)
-})
+  res.json(five);
+});
 
 app.get('/6', (req, res) => {
-  res.json(six)
-})
+  res.json(six);
+});
 
 app.get('/7', (req, res) => {
-  res.json(seven)
-})
+  res.json(seven);
+});
 
 app.get('/8', (req, res) => {
-  res.json(eight)
-})
+  res.json(eight);
+});
 
 app.use('/api/v1', api);
 
